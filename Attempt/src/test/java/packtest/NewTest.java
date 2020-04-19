@@ -12,7 +12,8 @@ public class NewTest {
   @Test
   public void f() {
 	  
-	  WebDriverManager.chromedriver().setup();
+	 // WebDriverManager.chromedriver().setup();
+	  System.setProperty("webdriver.chrome.driver", "E:\\selenium\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.selenium.dev/downloads/");
 		driver.close();
