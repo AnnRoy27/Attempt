@@ -15,6 +15,7 @@ public class NewTest {
 	  WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.selenium.dev/downloads/");
+		driver.close();
   }
   
 
